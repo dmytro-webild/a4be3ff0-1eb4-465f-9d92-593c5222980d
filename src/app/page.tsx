@@ -25,6 +25,7 @@ export default function LandingPage() {
       primaryButtonStyle="flat"
       secondaryButtonStyle="radial-glow"
       headingFontWeight="bold"
+      background="circleGradient"
     >
       <div id="nav" data-section="nav">
         <NavbarStyleFullscreen
@@ -45,7 +46,7 @@ export default function LandingPage() {
         <HeroSplit
           title="Discover Your Perfect Hairstyle with AI"
           description="Upload your photo and let our advanced facial analysis technology recommend hairstyles tailored to your unique face shape, features, and personal style. Get personalized recommendations in seconds with confidence scores."
-          background={{ variant: "aurora" }}
+          background={{ variant: "canvas-reveal" }}
           tag="AI-Powered Beauty"
           tagIcon={Sparkles}
           tagAnimation="slide-up"
