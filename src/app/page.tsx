@@ -87,7 +87,7 @@ export default function LandingPage() {
           tagAnimation="opacity"
           buttons={[{ text: "Learn More", href: "#how-it-works" }]}
           buttonAnimation="blur-reveal"
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-computer-interface-showing-face-shape--1773988641784-4bd95f35.png"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-computer-interface-showing-face-shape--1773988641784-4bd95f35.png?_wi=1"
           imageAlt="Facial analysis dashboard with measurements"
           useInvertedBackground={false}
         />
@@ -121,25 +121,25 @@ export default function LandingPage() {
               id: "forehead-width",              title: "Forehead & Width Assessment",              descriptions: [
                 "Analyzes forehead proportion and face width",                "Recommends styles that balance facial proportions"
               ],
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-computer-interface-showing-face-shape--1773988641784-4bd95f35.png"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-computer-interface-showing-face-shape--1773988641784-4bd95f35.png?_wi=2"
             },
             {
               id: "cheekbone-structure",              title: "Cheekbone Structure Analysis",              descriptions: [
                 "Evaluates cheekbone prominence and placement",                "Suggests styles that enhance or soften features as desired"
               ],
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-of-a-person-wear-1773988641596-6ec02128.png"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-of-a-person-wear-1773988641596-6ec02128.png?_wi=1"
             },
             {
               id: "confidence-score",              title: "Confidence Scoring",              descriptions: [
                 "Each recommendation includes a confidence percentage",                "Transparency in how well each style matches your features"
               ],
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-showing-a-sleek--1773988641001-a7686a5c.png"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-showing-a-sleek--1773988641001-a7686a5c.png?_wi=1"
             },
             {
               id: "gender-detection",              title: "Gender-Specific Recommendations",              descriptions: [
                 "Auto-detects gender or allows manual selection",                "Tailors recommendations to preferred aesthetic styles"
               ],
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-featuring-a-volu-1773988642342-631522a5.png"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-featuring-a-volu-1773988642342-631522a5.png?_wi=1"
             }
           ]}
           gridVariant="three-columns-all-equal-width"
@@ -160,13 +160,13 @@ export default function LandingPage() {
           useInvertedBackground={false}
           products={[
             {
-              id: "layered-waves",              name: "Soft Layered Waves",              price: "Confidence: 94%",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-of-a-person-wear-1773988641596-6ec02128.png",              imageAlt: "Soft layered wavy hairstyle",              isFavorited: false
+              id: "layered-waves",              name: "Soft Layered Waves",              price: "Confidence: 94%",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-of-a-person-wear-1773988641596-6ec02128.png?_wi=2",              imageAlt: "Soft layered wavy hairstyle",              isFavorited: false
             },
             {
-              id: "modern-bob",              name: "Modern Sleek Bob",              price: "Confidence: 89%",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-showing-a-sleek--1773988641001-a7686a5c.png",              imageAlt: "Modern sleek bob cut",              isFavorited: false
+              id: "modern-bob",              name: "Modern Sleek Bob",              price: "Confidence: 89%",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-showing-a-sleek--1773988641001-a7686a5c.png?_wi=2",              imageAlt: "Modern sleek bob cut",              isFavorited: false
             },
             {
-              id: "defined-curls",              name: "Defined Curly Style",              price: "Confidence: 91%",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-featuring-a-volu-1773988642342-631522a5.png",              imageAlt: "Volumetric defined curls",              isFavorited: false
+              id: "defined-curls",              name: "Defined Curly Style",              price: "Confidence: 91%",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-featuring-a-volu-1773988642342-631522a5.png?_wi=2",              imageAlt: "Volumetric defined curls",              isFavorited: false
             },
             {
               id: "long-straight",              name: "Long Straight with Layers",              price: "Confidence: 87%",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-of-a-person-with-1773988640233-f39c6295.png",              imageAlt: "Long straight layered hair",              isFavorited: false
@@ -175,7 +175,7 @@ export default function LandingPage() {
               id: "textured-shag",              name: "Modern Textured Shag",              price: "Confidence: 92%",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-showing-a-modern-1773988642407-20e6829c.png",              imageAlt: "Textured modern shag cut",              isFavorited: false
             },
             {
-              id: "ar-preview",              name: "Virtual Try-On with AR",              price: "Confidence: 100%",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/an-augmented-reality-preview-interface-s-1773988642192-25132aca.png",              imageAlt: "Augmented reality hairstyle preview",              isFavorited: false
+              id: "ar-preview",              name: "Virtual Try-On with AR",              price: "Confidence: 100%",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/an-augmented-reality-preview-interface-s-1773988642192-25132aca.png?_wi=1",              imageAlt: "Augmented reality hairstyle preview",              isFavorited: false
             }
           ]}
           gridVariant="three-columns-all-equal-width"
@@ -224,16 +224,16 @@ export default function LandingPage() {
           useInvertedBackground={false}
           testimonials={[
             {
-              id: "review-1",              name: "Sarah Martinez",              date: "2 weeks ago",              title: "Hair Stylist",              quote: "This app changed how I recommend cuts to clients. The facial analysis is incredibly accurate and my clients love seeing what they'll look like before we make the cut.",              tag: "Professional Stylist",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-of-a-happy-custo-1773988642303-8a6ce8da.png",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-of-a-person-wear-1773988641596-6ec02128.png"
+              id: "review-1",              name: "Sarah Martinez",              date: "2 weeks ago",              title: "Hair Stylist",              quote: "This app changed how I recommend cuts to clients. The facial analysis is incredibly accurate and my clients love seeing what they'll look like before we make the cut.",              tag: "Professional Stylist",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-of-a-happy-custo-1773988642303-8a6ce8da.png",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-of-a-person-wear-1773988641596-6ec02128.png?_wi=3"
             },
             {
-              id: "review-2",              name: "Michael Chen",              date: "1 month ago",              title: "Marketing Director",              quote: "I was skeptical at first, but the recommendations were spot-on. I got the modern bob and it perfectly complements my face shape. Best beauty investment ever!",              tag: "Verified Customer",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-of-a-smiling-per-1773988641732-3bbf2833.png",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-showing-a-sleek--1773988641001-a7686a5c.png"
+              id: "review-2",              name: "Michael Chen",              date: "1 month ago",              title: "Marketing Director",              quote: "I was skeptical at first, but the recommendations were spot-on. I got the modern bob and it perfectly complements my face shape. Best beauty investment ever!",              tag: "Verified Customer",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-of-a-smiling-per-1773988641732-3bbf2833.png",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-showing-a-sleek--1773988641001-a7686a5c.png?_wi=3"
             },
             {
-              id: "review-3",              name: "Jessica Wong",              date: "3 weeks ago",              title: "Creative Director",              quote: "The AR preview feature is amazing! I could see how different styles looked on me before committing. The confidence scores really helped me make the right choice.",              tag: "AR Feature Lover",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-of-a-confident-w-1773988640118-2c7c8f0c.png",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/an-augmented-reality-preview-interface-s-1773988642192-25132aca.png"
+              id: "review-3",              name: "Jessica Wong",              date: "3 weeks ago",              title: "Creative Director",              quote: "The AR preview feature is amazing! I could see how different styles looked on me before committing. The confidence scores really helped me make the right choice.",              tag: "AR Feature Lover",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-of-a-confident-w-1773988640118-2c7c8f0c.png",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/an-augmented-reality-preview-interface-s-1773988642192-25132aca.png?_wi=2"
             },
             {
-              id: "review-4",              name: "David Thompson",              date: "1 week ago",              title: "Software Engineer",              quote: "As someone in tech, I appreciate the sophisticated algorithms behind this. The face shape analysis is genuinely impressive and the recommendations are personalized.",              tag: "Tech Enthusiast",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-of-a-smiling-man-1773988640001-ce70bb2a.png",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-featuring-a-volu-1773988642342-631522a5.png"
+              id: "review-4",              name: "David Thompson",              date: "1 week ago",              title: "Software Engineer",              quote: "As someone in tech, I appreciate the sophisticated algorithms behind this. The face shape analysis is genuinely impressive and the recommendations are personalized.",              tag: "Tech Enthusiast",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-of-a-smiling-man-1773988640001-ce70bb2a.png",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BCLvs2Go3pfxWsS8ZFTKpVE7v2/a-professional-headshot-featuring-a-volu-1773988642342-631522a5.png?_wi=3"
             }
           ]}
         />
